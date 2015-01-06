@@ -1,0 +1,244 @@
+
+<div class="navbar navbar-default" id="navbar">
+    <div class="navbar-container" id="navbar-container">
+        <div class="navbar-header pull-left"> <a href="#" class="navbar-brand"> <small> <i class="icon-leaf"></i> 珠峰社区 </small> </a> </div>
+        <div class="navbar-header pull-right" role="navigation">
+            <ul class="nav ace-nav">
+                <li class="noLogout">
+                    <%
+                    if(!user){
+                    %>
+                    <span data-toggle="modal" data-target=".bs-logout" id="register">注册</span>
+                    <span data-toggle="modal" data-target=".bs-logout" id="login">登录</span>
+                    <%
+                    }else{
+                    %>
+                <li class="light-blue">
+                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                        <img class="nav-user-photo" src="/avatars/user.jpg" alt="Jason's Photo" />
+                        <span class="user-info"> <small>欢迎光临,</small> <%=user.user_name%> </span>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                        <li>
+                            <button type="submit" onclick="window.location='/category/list'" class="width-35 pull-right btn btn-sm btn-default">
+                                <i class="icon-key"></i>
+                                后台管理
+                            </button>
+                            <form method="post" action="/users/logout">
+                                <button type="submit" class="width-35 pull-right btn btn-sm btn-default">
+                                    <i class="icon-key"></i>
+                                    退出
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <%
+                }
+                %>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade bs-logout" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="border: 0">
+            <div class="login-layout">
+                <div class="login-container">
+                    <div class="position-relative">
+                        <button type="button" class="close login_closeBtn" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                        <div id="login-box" class="login-box widget-box no-border visible">
+                            <div class="widget-body">
+                                <div class="widget-main">
+                                    <h4 class="header blue lighter bigger">
+                                        <i class="icon-coffee green"></i>
+                                        Please Enter Your Information
+                                    </h4>
+
+                                    <div class="space-6"></div>
+
+                                    <form method="post" action="/users/login">
+                                        <fieldset>
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" placeholder="user_name" name="user_name">
+															<i class="icon-user"></i>
+														</span>
+                                            </label>
+
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="password" name="password">
+															<i class="icon-lock"></i>
+														</span>
+                                            </label>
+
+                                            <div class="space"></div>
+
+                                            <div class="clearfix">
+                                                <label class="inline">
+                                                    <input type="checkbox" class="ace">
+                                                    <span class="lbl"> Remember Me</span>
+                                                </label>
+
+                                                <button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
+                                                    <i class="icon-key"></i>
+                                                    Login
+                                                </button>
+                                            </div>
+
+                                            <div class="space-4"></div>
+                                        </fieldset>
+                                    </form>
+
+
+
+
+                                </div><!-- /widget-main -->
+
+                                <div class="toolbar clearfix">
+                                    <div>
+                                        <a href="#" onclick="show_box('forgot-box'); return false;" class="forgot-password-link">
+                                            <i class="icon-arrow-left"></i>
+                                            I forgot my password
+                                        </a>
+                                    </div>
+
+                                    <div>
+                                        <a href="#" onclick="show_box('signup-box'); return false;" class="user-signup-link">
+                                            I want to register
+                                            <i class="icon-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /widget-body -->
+                        </div><!-- /login-box -->
+
+                        <div id="forgot-box" class="forgot-box widget-box no-border">
+                            <div class="widget-body">
+                                <div class="widget-main">
+                                    <h4 class="header red lighter bigger">
+                                        <i class="icon-key"></i>
+                                        Retrieve Password
+                                    </h4>
+
+                                    <div class="space-6"></div>
+                                    <p>
+                                        Enter your email and to receive instructions
+                                    </p>
+
+                                    <form>
+                                        <fieldset>
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email">
+															<i class="icon-envelope"></i>
+														</span>
+                                            </label>
+
+                                            <div class="clearfix">
+                                                <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
+                                                    <i class="icon-lightbulb"></i>
+                                                    Send Me!
+                                                </button>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div><!-- /widget-main -->
+
+                                <div class="toolbar center">
+                                    <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
+                                        Back to login
+                                        <i class="icon-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div><!-- /widget-body -->
+                        </div><!-- /forgot-box -->
+
+                        <div id="signup-box" class="signup-box widget-box no-border">
+                            <div class="widget-body">
+                                <div class="widget-main">
+                                    <h4 class="header green lighter bigger">
+                                        <i class="icon-group blue"></i>
+                                        New User Registration
+                                    </h4>
+
+                                    <div class="space-6"></div>
+                                    <p> Enter your details to begin: </p>
+
+                                    <form action="/users/reg" method="post">
+                                        <fieldset>
+
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" placeholder="user_name" name="user_name">
+															<i class="icon-user"></i>
+														</span>
+                                            </label>
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="password" name="password">
+															<i class="icon-lock"></i>
+														</span>
+                                            </label>
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="Repeat password" name="password_repeat">
+															<i class="icon-retweet"></i>
+														</span>
+                                            </label>
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="email" name="email">
+															<i class="icon-envelope"></i>
+														</span>
+                                            </label>
+
+
+
+
+                                            <label class="block">
+                                                <input type="checkbox" class="ace">
+														<span class="lbl">
+															I accept the
+															<a href="#">User Agreement</a>
+														</span>
+                                            </label>
+
+                                            <div class="space-24"></div>
+
+                                            <div class="clearfix">
+                                                <button type="reset" class="width-30 pull-left btn btn-sm">
+                                                    <i class="icon-refresh"></i>
+                                                    Reset
+                                                </button>
+
+                                                <button type="submit" class="width-65 pull-right btn btn-sm btn-success">
+                                                    Register
+                                                    <i class="icon-arrow-right icon-on-right"></i>
+                                                </button>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+
+                                <div class="toolbar center">
+                                    <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
+                                        <i class="icon-arrow-left"></i>
+                                        Back to login
+                                    </a>
+                                </div>
+                            </div><!-- /widget-body -->
+                        </div><!-- /signup-box -->
+                    </div><!-- /position-relative -->
+                </div>
+
+            </div>
+        </div></div></div>
+
+</body></html>

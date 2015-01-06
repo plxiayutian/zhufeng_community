@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>珠峰社区</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- basic styles -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/css/community.css" />
+  <!--[if lt IE 9]>
+  <script src="/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<% include ./include/header %>
+<div class="main-container" id="main-container">
+  <div class="main-container-inner">
+
+    <a class="menu-toggler" id="menu-toggler" href="#"> <span class="menu-text"></span> </a>
+    <div class="sidebar" id="sidebar">
+      <ul class="nav nav-list">
+        <%
+          if(categories && categories.length){
+          for(var i=0;i<categories.length;i++){
+          var category = categories[i];
+            %>
+              <li> <a href="/topic/view" class="dropdown-toggle"> <i class="icon-desktop"></i> <span class="menu-text"><%= category.name%></span> <b class="arrow icon-angle-down"></b> </a>
+              <%
+                 if(category.children && category.children.length){
+                    %>
+                      <ul class="submenu">
+                        <%
+                          for(var j=0;j<category.children.length;j++){
+                            var subCategory = category.children[j];
+                            %>
+                            <li> <a href="/topic/view"> <i class="icon-double-angle-right"></i> <%=subCategory.name%></a> </li>
+                          <%
+                          }
+                        %>
+                      </ul>
+                    <%
+                 }
+              %>
+            <%
+            }
+          }
+         %>
+      </ul>
+      <!-- /.nav-list -->
+
+      <div class="sidebar-collapse" id="sidebar-collapse">
+        <i class="icon-double-angle-left"  data-icon2="icon-double-angle-right"></i>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="breadcrumbs" id="breadcrumbs">
+
+        <ul class="breadcrumb">
+          <li> <i class="icon-home home-icon"></i> <a href="#">首页</a> </li>
+          <li class="active">控制台</li>
+        </ul>
+
+
+        <div class="nav-search" id="nav-search">
+          <form class="form-search">
+            <span class="input-icon">
+            <input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+            <i class="icon-search nav-search-icon"></i> </span>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="page-content">
+        <div class="page-header">
+          <h1>
+            推荐阅读
+            <small>
+              <i class="icon-double-angle-right"></i>
+              自定义数据类型转换
+            </small>
+          </h1>
+        </div>
+
+
+        <div class="row">
+          <div class=" col-md-6 ">
+              <div class="tabbable " >
+                <ul class="nav nav-tabs" id="myTab32">
+                  <li class="active">
+                    <a data-toggle="tab" href="#home32">
+                      <i class="pink icon-dashboard bigger-110"></i>
+                      Home
+                    </a>
+                  </li>
+
+                  <li>
+                    <a data-toggle="tab" href="#profile3">
+                      <i class="blue icon-user bigger-110"></i>
+                      Profile
+                    </a>
+                  </li>
+
+                  <li>
+                    <a data-toggle="tab" href="#dropdown13">
+                      <i class="icon-rocket"></i>
+                      More
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="tab-content">
+                  <div id="home32" class="tab-pane in active">
+                    <p>
+                      <% if (success) { %>
+                    <div><%= success %></div>
+                    <% } %>
+                    <% if (error) { %>
+                    <div><%= error %></div>
+                    <% } %>
+                    </p>
+                    <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                    <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                  </div>
+
+                  <div id="profile3" class="tab-pane">
+                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+                    <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                  </div>
+
+                  <div id="dropdown13" class="tab-pane">
+                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.</p>
+                    <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                  </div>
+                </div>
+              </div>
+
+            <div class="tabbable " style="margin-top: 20px;">
+              <ul class="nav nav-tabs" id="myTab3">
+                <li class="active">
+                  <a data-toggle="tab" href="#home3">
+                    <i class="pink icon-dashboard bigger-110"></i>
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a data-toggle="tab" href="#profile33">
+                    <i class="blue icon-user bigger-110"></i>
+                    Profile
+                  </a>
+                </li>
+
+                <li>
+                  <a data-toggle="tab" href="#dropdown133">
+                    <i class="icon-rocket"></i>
+                    More
+                  </a>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+                <div id="home3" class="tab-pane in active">
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                </div>
+
+                <div id="profile33" class="tab-pane">
+                  <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                </div>
+
+                <div id="dropdown133" class="tab-pane">
+                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.</p>
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class=" col-md-6 ">
+
+            <div class="widget-box">
+              <div class="widget-header widget-header-flat">
+                <h4>课程大纲</h4>
+              </div>
+
+              <div class="widget-body">
+                <div class="widget-main">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-12">
+                      <h4 style="color:#008ec4;text-indent: 0.5em;">
+                        bootstrap
+                      </h4>
+                      <ul>
+                        <li>Ordered List Item</li>
+                        <li >text-primary Ordered List Item</li>
+                        <li >text-danger Ordered List Item</li>
+
+                        <li >
+                          <b>text-success</b>
+                          Ordered List Item
+                        </li>
+                        <li>text-warning Ordered List Item</li>
+                        <li>text-muted Ordered List Item</li>
+                      </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-12">
+                      <h4 style="color:#008ec4;text-indent: 0.5em;">
+                       css
+                      </h4>
+                      <ul>
+                        <li>Ordered List Item</li>
+                        <li >text-primary Ordered List Item</li>
+                        <li >text-danger Ordered List Item</li>
+
+                        <li >
+                          <b>text-success</b>
+                          Ordered List Item
+                        </li>
+                        <li>text-warning Ordered List Item</li>
+                        <li>text-muted Ordered List Item</li>
+                      </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-12 ">
+                      <h4 style="color:#008ec4;text-indent: 0.5em;">
+                        css
+                      </h4>
+                      <ul>
+                        <li>Ordered List ItemOrdered List Item</li>
+                        <li >text-primary Ordered List ItemOrdered List Item</li>
+                        <li >text-danger Ordered List ItemOrdered List Item</li>
+
+                        <li >
+                          <b>text-successOrdered List Item</b>
+                          Ordered List Item  Ordered List Item
+                        </li>
+                        <li>text-warning Ordered List ItemOrdered List Item</li>
+                        <li>text-muted Ordered List ItemOrdered List Item</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-12">
+                      <h4 style="color:#008ec4;text-indent: 0.5em;">
+                        css
+                      </h4>
+                      <ul>
+                        <li>Ordered List ItemOrdered List Item</li>
+                        <li >text-primary Ordered List ItemOrdered List Item</li>
+                        <li >text-danger Ordered List ItemOrdered List Item</li>
+
+                        <li >
+                          <b>text-successOrdered List Item</b>
+                          Ordered List Item Ordered List Item
+                        </li>
+                        <li>text-warning Ordered List ItemOrdered List Item</li>
+                        <li>text-muted Ordered List ItemOrdered List Item</li>
+                      </ul>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+  <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse"> <i class="icon-double-angle-up icon-only bigger-110"></i> </a> </div>
+
+
+
+
+
+
+<!--登录结束-->
+<script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/ace.js"></script>
+<script type="text/javascript">
+  function show_box(id) {
+    jQuery('.widget-box.visible').removeClass('visible');
+    jQuery('#'+id).addClass('visible');
+  }
+  jQuery("#register").on("click",function(){
+    jQuery("#signup-box").addClass('visible');
+    jQuery('#login-box').removeClass('visible')
+  })
+  jQuery("#login").on("click",function(){
+    jQuery("#login-box").addClass('visible');
+    jQuery('#signup-box').removeClass('visible')
+  })
+</script>
+</body>
+</html>

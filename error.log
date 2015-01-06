@@ -1,0 +1,498 @@
+[Tue Dec 30 2014 19:02:46 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:02:56 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:04:08 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:04:13 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:04:30 GMT+0800 (CST)] /
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/db.js:258:11)
+    at Function.Post.getTen (/Users/zhang_renyang/WebstormProjects/N-blog/models/post.js:66:11)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:235:24
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+[Tue Dec 30 2014 19:04:38 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:04:46 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:05:01 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:05:24 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:05:49 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:05:56 GMT+0800 (CST)] /login
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:666:10)
+    at ServerResponse.send (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:146:12)
+    at fn (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:900:10)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:3)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:78:9
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+[Tue Dec 30 2014 19:05:56 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:05:57 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:05:58 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:07:00 GMT+0800 (CST)] /
+Error: Error setting TTL index on collection : sessions
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:161:23
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1404:28
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1542:30
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:159:22
+    at commandHandler (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:678:48)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1806:9
+    at __executeQueryCommand (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1636:44)
+    at Db._executeQueryCommand (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1805:7)
+    at Cursor.nextObject (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.toArray (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:158:10)
+[Tue Dec 30 2014 19:07:00 GMT+0800 (CST)] /apple-touch-icon-precomposed.png
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:767:12)
+    at Server.checkoutReader (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:779:16)
+    at Cursor.nextObject (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:720:48)
+    at Cursor.nextObject (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:22:20)
+    at Collection.findOne (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:145:10)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:214:18
+    at MongoStore._get_collection (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:148:21)
+    at MongoStore.get (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:213:10)
+    at session (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express-session/index.js:356:11)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+[Tue Dec 30 2014 19:07:00 GMT+0800 (CST)] /apple-touch-icon.png
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:767:12)
+    at Server.checkoutReader (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:779:16)
+    at Cursor.nextObject (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:720:48)
+    at Cursor.nextObject (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:22:20)
+    at Collection.findOne (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:145:10)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:214:18
+    at MongoStore._get_collection (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:148:21)
+    at MongoStore.get (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:213:10)
+    at session (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express-session/index.js:356:11)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+[Tue Dec 30 2014 19:07:01 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Tue Dec 30 2014 19:07:03 GMT+0800 (CST)] /
+TypeError: /Users/zhang_renyang/WebstormProjects/N-blog/views/index.ejs:14
+    12|       <% } %>
+    13|     <% }) %>
+ >> 14|     <% if (post.reprint_info.reprint_from) { %>
+    15|       <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    16|     <% } %>
+    17|   </p>
+
+Cannot read property 'reprint_from' of undefined
+    at buf.push.
+.buf (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:1076)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:31:58)
+    at eval (eval at <anonymous> (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:35:35)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:255:15
+    at Object.exports.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:293:13)
+    at View.exports.renderFile [as engine] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/ejs/lib/ejs.js:323:20)
+    at View.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+[Sat Jan 03 2015 14:26:58 GMT+0800 (CST)] /stylesheets/style.css
+Error: Error setting TTL index on collection : sessions
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/lib/connect-mongo.js:161:23
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1404:28
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1542:30
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:159:22
+    at commandHandler (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:678:48)
+    at Db._executeQueryCommand (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1802:12)
+    at Cursor.nextObject (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.toArray (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:158:10)
+    at Cursor.toArray (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:10:20)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1541:65
+[Sat Jan 03 2015 16:54:49 GMT+0800 (CST)] /
+Error: Failed to lookup view "index" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:19:11
+    at /Users/zhang_renyang/WebstormProjects/N-blog/models/post.js:97:11
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/cursor.js:172:16
+    at commandHandler (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/cursor.js:720:16)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/db.js:1912:9
+    at Server.Base._callHandler (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/connection/base.js:448:41)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/connection/server.js:481:18
+    at MongoReply.parseBody (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+[Sat Jan 03 2015 16:54:53 GMT+0800 (CST)] /
+Error: Failed to lookup view "index" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:19:11
+    at /Users/zhang_renyang/WebstormProjects/N-blog/models/post.js:97:11
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/cursor.js:172:16
+    at commandHandler (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/cursor.js:720:16)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/db.js:1912:9
+    at Server.Base._callHandler (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/connection/base.js:448:41)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/connection/server.js:481:18
+    at MongoReply.parseBody (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+[Sat Jan 03 2015 16:54:56 GMT+0800 (CST)] /user/reg
+Error: Failed to lookup view "404" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:375:9)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:271:13)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:238:9
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
+[Sat Jan 03 2015 16:55:39 GMT+0800 (CST)] /users/reg
+Error: Failed to lookup view "404" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:375:9)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:271:13)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:238:9
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
+[Sat Jan 03 2015 16:56:44 GMT+0800 (CST)] /users/reg
+Error: Failed to lookup view "404" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:375:9)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:271:13)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:238:9
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
+[Sat Jan 03 2015 16:56:48 GMT+0800 (CST)] /users/reg
+Error: Failed to lookup view "404" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:375:9)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:271:13)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:238:9
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
+[Sat Jan 03 2015 17:01:34 GMT+0800 (CST)] /users/reg
+Error: Failed to lookup view "404" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:375:9)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:271:13)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:238:9
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
+[Sat Jan 03 2015 17:01:38 GMT+0800 (CST)] /users/reg
+Error: Failed to lookup view "404" in views directory "/Users/zhang_renyang/WebstormProjects/N-blog/view"
+    at EventEmitter.app.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/application.js:519:17)
+    at ServerResponse.res.render (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/response.js:904:7)
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/index.js:375:9)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:271:13)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:238:9
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
+[Sat Jan 03 2015 17:04:02 GMT+0800 (CST)] /users/reg
+ReferenceError: crypto is not defined
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/users.js:21:13)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:235:24
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at /Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
+[Sat Jan 03 2015 17:06:37 GMT+0800 (CST)] /users/reg
+TypeError: Not a string or buffer
+    at Hash.update (crypto.js:240:17)
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/users.js:23:22)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:235:24)
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at proto.handle.c (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12)
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+[Sat Jan 03 2015 17:17:43 GMT+0800 (CST)] /users/reg
+ReferenceError: User is not defined
+    at module.exports (/Users/zhang_renyang/WebstormProjects/N-blog/routes/users.js:24:21)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:235:24)
+    at Function.proto.process_params (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:313:12)
+    at proto.handle.c (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:229:12)
+    at Function.match_layer (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:296:3)
+    at next (/Users/zhang_renyang/WebstormProjects/N-blog/node_modules/express/lib/router/index.js:190:10)
